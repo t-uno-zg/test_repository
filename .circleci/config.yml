@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "echo Hello, World! `date '+%Y/%m/%d'`"
+          command: "echo Hello, World! `date '+%Y/%m/%d %H/%M/%S'`"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
